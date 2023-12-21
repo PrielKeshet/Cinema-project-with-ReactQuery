@@ -1,0 +1,180 @@
+.member-container {
+    font-family: Arial, sans-serif;
+    border: 2px solid DarkOrange;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .member-title {
+    color: DarkOrange;
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    margin-bottom: 15px;
+  }
+  
+  .detail-label {
+    font-weight: bold;
+  }
+  
+  .subs-section {
+    margin-top: 30px;
+  }
+  
+  .subs-title {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .subs-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .subs-item {
+    margin-bottom: 10px;
+  }
+  
+  .subs-link {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .subs-link:hover {
+    color: #0056b3;
+  }
+  
+  .add-sub-section {
+    margin-top: 20px;
+    border: 2px solid LightCoral;
+    padding: 15px;
+  }
+  
+  .add-sub-title {
+    color: LightCoral;
+    margin-bottom: 15px;
+  }
+  
+  .add-subscription-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-size: 18px; 
+    text-transform: uppercase;
+  }
+  
+  .add-subscription-btn:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+  }
+  
+  .add-subscription-btn:active {
+    transform: translateY(1px); 
+    box-shadow: none; 
+  }
+
+  .edit-member-btn,
+.delete-member-btn {
+  background-color: #28a745; 
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+  font-size: 16px; 
+  margin-right: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); 
+}
+.delete-member-btn{
+    background-color: #ff0000;
+}
+
+.edit-member-btn:hover,
+.delete-member-btn:hover {
+  background-color: #218838; 
+  transform: translateY(-2px);
+}
+.delete-member-btn:hover {
+    background-color: #882121;
+}
+
+.edit-member-btn:active,
+.delete-member-btn:active {
+  transform: translateY(1px); 
+  box-shadow: none; 
+}
+
+.add-sub-section {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-sub-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .add-sub-section select,
+  .add-sub-section input[type="date"],
+  .add-sub-section input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-sub-section input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-sub-section input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  @media (max-width: 768px) {
+    .member-container {
+      padding: 15px;
+      margin: 15px;
+    }
+  
+    .member-title {
+      font-size: 24px;
+    }
+  
+    .detail {
+      font-size: 16px;
+    }
+  
+    .subs-title {
+      font-size: 20px;
+    }
+  
+    .add-sub-title {
+      font-size: 20px;
+    }
+  
+    .add-subscription-btn {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
